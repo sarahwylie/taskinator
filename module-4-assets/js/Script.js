@@ -32,13 +32,6 @@ else {
     }
    createTaskEl(taskDataObj);
 }
-    //package data as an object
-    var taskDataObj = {
-        name: taskNameInput,
-        type: taskTypeInput
-    }
-    //send it as an argument to createTaskEl
-    createTaskEl(taskDataObj);
 };
 
 var completeEditTask = function(taskName, taskType, taskId) {
